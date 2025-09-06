@@ -1,5 +1,5 @@
 const byteSize = (str) => {
-  return str.length;
+  return new Blob([str]).size;
 };
 
 const str = prompt("Enter some string.");
